@@ -1,0 +1,135 @@
+.content{
+    width: 1200px;
+    margin: 50px 0 0 0;
+}
+
+.content__sub{
+    margin: 0 0 40px   0 ;
+    font-weight :700;
+    font-size :28px;
+    font-family: sans-serif;
+
+}
+
+.content__page{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.content__div{
+    margin: 0 33px 0 0;
+    width :568px;
+    height: 383px;
+    background: url("../img/content-page.png") center no-repeat  ;
+    background-size: cover;
+}
+.content__widget{
+
+    padding:276px 0 0 20px;
+}
+.content__text{
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 0 0 6px 0;
+}
+.content__desc{
+    font-family: sans-serif;
+    Font-size: 20px;
+    color: white;
+}
+.content__section1{
+    margin: 0 20px 0 0;
+    width: 47%;
+    height: 181px;
+    background: url("../img/content-sec1.png")center no-repeat  ;
+    background-size: cover;
+}
+.content__section2{
+    width: 47%;
+    height: 181px;
+    background: url("../img/content-sec2.png")center no-repeat  ;
+    background-size: cover;
+}
+.content__section3{
+    margin: 0 20px 0 0;
+    width: 47%;
+    height: 181px;
+    background: url("../img/content-sec3.png")center no-repeat  ;
+    background-size: cover;
+}
+.content__section4{
+    width: 47%;
+    height: 181px;
+    background: url("../img/content-sec4.png") center no-repeat  ;
+    background-size: cover;
+}
+.content__description{
+    padding: 110px 0 0 15px;
+}
+.content__subtitle{
+    font-family: sans-serif;
+    Font-size: 14px;
+    color: white;
+}
+.content__main{
+    width :568px;
+
+}
+.content__paige{
+    /*width: 100%;*/
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 18px 0;
+
+}
+
+
+@media (max-width: 1280px) {
+    .content{
+        width: 100%;
+    }
+    .content__page{
+        width: 100%;
+    }
+}
+
+@media (max-width: 950px) {
+    .content__page{
+        flex-wrap: wrap;
+    }
+    .content__div{
+        width: 100%;
+        margin: 0 0 20px 0;
+        /*height: ;*/
+    }
+    .content__main{
+        width: 100% ;
+    }
+}
+
+@media (max-width: 650px){
+    .content__paige{
+
+        display: block;
+    }
+    .content__section1{
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+    .content__section2{
+        margin: 0 20px 0 0;
+        width: 100%;
+    }
+    .content__section3{
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+    .content__section4{
+        margin: 0 20px 0 0;
+        width: 100%;
+    }
+}
